@@ -1,10 +1,7 @@
-# week_project
+# Flutter UI Lab
 
-A new Flutter project.
+Unlock your potential by embarking on this project and take your Flutter development skills to the next level. Challenge yourself with a project that will not only improve your skills but also help you achieve your goals
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
