@@ -7,12 +7,14 @@ class CardContent extends StatelessWidget {
     required this.title,
     required this.name,
     required this.color,
+    required this.shadowColor,
   });
 
   final String path;
   final String title;
   final String name;
   final int color;
+  final Color shadowColor;
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +24,14 @@ class CardContent extends StatelessWidget {
       decoration: BoxDecoration(
         color: Color(color),
         borderRadius: BorderRadius.circular(10),
+        boxShadow: [
+          BoxShadow(
+            color: shadowColor,
+            spreadRadius: 4,
+            blurRadius: 10,
+            offset: const Offset(3, 4),
+          ),
+        ],
       ),
       padding: const EdgeInsets.symmetric(horizontal: 20),
       margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),

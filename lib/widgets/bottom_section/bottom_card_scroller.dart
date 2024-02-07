@@ -13,22 +13,17 @@ class BottomCardScroller extends StatelessWidget {
       child: Row(
         children: [
           BottomCardContent(
-              title1: "Ankur Warikoo",
-              title2: "Founder Nearby | Mentor",
-              color: 0xff3E7EE2),
+            title1: "Ankur Warikoo",
+            title2: "Founder Nearby | Mentor",
+            color: 0xff3E7EE2,
+          ),
           BottomCardContent(
-              title1: "Kunal Shah",
-              title2: "Founder CRED",
-              color: 0xff424141),
+            title1: "Kunal Shah",
+            title2: "Founder CRED",
+            color: 0xff424141,
+          ),
         ],
       ),
     );
   }
 }
-
-
-
-
-
-
-

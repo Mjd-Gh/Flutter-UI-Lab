@@ -20,8 +20,16 @@ class BottomCardContent extends StatelessWidget {
       decoration: BoxDecoration(
         color: Color(color),
         borderRadius: BorderRadius.circular(16),
+        boxShadow: const [
+          BoxShadow(
+            color: Color.fromARGB(65, 66, 66, 66),
+            spreadRadius: 2,
+            blurRadius: 5,
+            offset: Offset(2, 3),
+          ),
+        ],
       ),
-      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
+      margin: const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 15),
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 13),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

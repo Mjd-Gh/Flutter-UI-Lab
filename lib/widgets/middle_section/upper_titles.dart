@@ -15,7 +15,7 @@ class MiddleTitles extends StatelessWidget {
           Text(
             "My Courses",
             style: TextStyle(
-              fontSize: 17,
+              fontSize: 18,
               fontWeight: FontWeight.bold,
             ),
           ),
